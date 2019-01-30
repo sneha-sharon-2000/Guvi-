@@ -2,13 +2,8 @@
 #include<conio.h>
 {
 int num;
-printf("enter the number");
+printf("enter the number 3");
 scanf("%d",num);
-if(num>0)
 printf("the number is positive",num);
-else if(num<0)
-printf("the number is negative",num);
-else
-printf("the number is neither postivr or negative");
 }
 
