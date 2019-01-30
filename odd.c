@@ -2,11 +2,11 @@
 #include<conio.h>
 int main()
 {
-int num;
+int number;
 printf("enter the integer");
-scanf("%d",num);
-if(num%2=0)
-printf("%d is even",num);
+scanf("%d",number);
+if(number %2=0)
+printf("%d is even",number);
 else
-printf("%d is odd",num);
+printf("%d is odd",number);
 }
