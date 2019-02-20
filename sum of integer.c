@@ -2,12 +2,12 @@
 #include<conio.h>
 void main()
 {
-  int n,k,i;
-  cin>>n>>k;
-  int a[n],b[k];
+ int n,k,i;
+ cin>>n>>k;
+int a[n],b[k];
 for(int i=0; i<k; i++)
- b[i]=0;
- for(int i = 0; i < n; i++)
+b[i]=0;
+for(int i = 0; i < n; i++)
 {
 cin >> a[i];
 b[a[i]%k]++;
